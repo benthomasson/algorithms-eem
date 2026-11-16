@@ -1,6 +1,6 @@
 # Proposed Beliefs
 
-Review each entry: change `[REJECT]` to `[ACCEPT]` to keep, or vice versa.
+Review each entry: change `[ACCEPT]` to `[ACCEPT]` to keep, or vice versa.
 Then run: `expert-build accept-beliefs`
 
 ---
@@ -1523,4 +1523,1853 @@ The real-time queue maintains the invariant |s| = |f| - |r|; when s is empty, |f
 Breadth-first search uses a queue to explore graph nodes level by level; depth-first search uses a stack. The choice of data structure is the fundamental distinction between the two traversal strategies.
 - Source: entries/2026/06/19/wiki-Queue_abstract_data_type.md
 - Source URL: https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
+
+
+---
+
+**Generated:** 2026-11-11
+**Source:** 52 entries from /home/forge/workspace/entries/
+**Model:** openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] avl-balance-factor-formula
+An AVL tree balance factor is computed as height(right subtree) − height(left subtree).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-AVL_tree.md
+- Source URL: https://en.wikipedia.org/wiki/AVL_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] avl-balance-factor-storage-2-bits
+An AVL tree balance factor can be stored in 2 bits per node.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-AVL_tree.md
+- Source URL: https://en.wikipedia.org/wiki/AVL_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] avl-four-rotation-cases
+AVL insertion rebalancing uses four rotation cases: RR, LL, RL, and LR, each taking O(1) time.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-AVL_tree.md
+- Source URL: https://en.wikipedia.org/wiki/AVL_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] avl-insert-retrace-stops-at-zero
+During AVL insertion retracing, the retrace stops when a node's balance factor becomes 0.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-AVL_tree.md
+- Source URL: https://en.wikipedia.org/wiki/AVL_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] avl-delete-retrace-stops-at-plus-minus-one
+During AVL deletion retracing, the retrace stops when a node's balance factor becomes +1 or −1.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-AVL_tree.md
+- Source URL: https://en.wikipedia.org/wiki/AVL_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] avl-traversal-linear
+In-order traversal of an AVL tree takes O(n) time.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-AVL_tree.md
+- Source URL: https://en.wikipedia.org/wiki/AVL_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] avl-successor-predecessor-amortized-o1
+Successor and predecessor queries in an AVL tree have amortized O(1) time.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-AVL_tree.md
+- Source URL: https://en.wikipedia.org/wiki/AVL_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] astar-evaluation-function
+A* selects nodes using the evaluation function f(n) = g(n) + h(n), where g(n) is the cost from the start and h(n) is the heuristic estimate to the goal.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-A_search_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/A*_search_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] astar-admissible-heuristic-definition
+An admissible A* heuristic never overestimates the true cost from a node to the goal.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-A_search_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/A*_search_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] astar-consistent-heuristic-definition
+A consistent A* heuristic satisfies h(n) ≤ c(n,n′) + h(n′) for every edge (n,n′).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-A_search_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/A*_search_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] astar-consistent-implies-admissible
+A consistent heuristic is stronger than an admissible heuristic because consistency implies admissibility.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-A_search_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/A*_search_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] astar-complexity-exponential
+A* has worst-case time and space complexity O(b^d), where b is the branching factor and d is the solution depth.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-A_search_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/A*_search_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] amortized-analysis-definition
+Amortized analysis bounds the total cost of a worst-case sequence of operations divided by the number of operations.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Amortized_analysis.md
+- Source URL: https://en.wikipedia.org/wiki/Amortized_analysis
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] amortized-accounting-credit-nonnegative
+In the accounting method, the stored credit must remain non-negative at all times.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Amortized_analysis.md
+- Source URL: https://en.wikipedia.org/wiki/Amortized_analysis
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] array-base-address
+The base address, also called foundation address or first address, is the memory address of an array's first element.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Array_data_structure.md
+- Source URL: https://en.wikipedia.org/wiki/Array_(data_structure)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] array-indexing-schemes
+Arrays may use zero-based indexing (C, Java, Lisp), one-based indexing (FORTRAN 77), or n-based indexing (Pascal, Algol) with an arbitrary start index.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Array_data_structure.md
+- Source URL: https://en.wikipedia.org/wiki/Array_(data_structure)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] array-packed-bit-array
+A bit array is a packed array that stores one bit per element, packing eight conditions per octet.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Array_data_structure.md
+- Source URL: https://en.wikipedia.org/wiki/Array_(data_structure)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] array-static-fixed-size
+A static array has a fixed size determined at creation.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Array_data_structure.md
+- Source URL: https://en.wikipedia.org/wiki/Array_(data_structure)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] array-power-of-two-stride-bit-shift
+If an array's stride coefficient is a power of 2, multiplication in the address calculation can be replaced by bit shifting.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Array_data_structure.md
+- Source URL: https://en.wikipedia.org/wiki/Array_(data_structure)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] array-c-2d-declaration-row-major
+In C, int a[2][3] declares a 2-row by 3-column array stored row-major as a11, a12, a13, a21, a22, a23.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Array_data_structure.md
+- Source URL: https://en.wikipedia.org/wiki/Array_(data_structure)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] btree-root-child-minimum
+In a B-tree, the root may have as few as 2 children, or be a leaf with 0 children if the tree is very small.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-B-tree.md
+- Source URL: https://en.wikipedia.org/wiki/B-tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] btree-keys-as-separators
+A non-leaf B-tree node with k children contains k−1 keys that partition the key space across its subtrees.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-B-tree.md
+- Source URL: https://en.wikipedia.org/wiki/B-tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] btree-merge-on-underflow
+Deleting from a B-tree node at minimum occupancy triggers a merge with a sibling or redistribution of keys from a neighbor.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-B-tree.md
+- Source URL: https://en.wikipedia.org/wiki/B-tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] btree-order-2-is-2-3-tree
+A B-tree of order 2 is essentially a 2-3 tree.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-B-tree.md
+- Source URL: https://en.wikipedia.org/wiki/B-tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] btree-search-binary-search-keys
+B-tree search starts at the root and uses binary search among keys at each node to select the correct child pointer.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-B-tree.md
+- Source URL: https://en.wikipedia.org/wiki/B-tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] btree-delete-internal-key-replacement
+When deleting a key from an internal B-tree node, the key is replaced with its in-order predecessor or successor from a leaf before deletion from the leaf.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-B-tree.md
+- Source URL: https://en.wikipedia.org/wiki/B-tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] btree-file-system-implementations
+B-trees are used for directory indexing and metadata management in file systems such as NTFS, HFS+, and ext4 via htree.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-B-tree.md
+- Source URL: https://en.wikipedia.org/wiki/B-tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] backtracking-term-coined-by-lehmer-1950s
+The term 'backtracking' was coined by D. H. Lehmer in the 1950s.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Backtracking.md
+- Source URL: https://en.wikipedia.org/wiki/Backtracking
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] constraint-propagation-improves-backtracking-efficiency
+Constraint propagation can improve backtracking efficiency by reducing the domains of unassigned variables after each assignment.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Backtracking.md
+- Source URL: https://en.wikipedia.org/wiki/Backtracking
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] backjumping-extends-backtracking
+Backjumping extends backtracking by jumping back further than one level when a dead end is found, reducing the search space.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Backtracking.md
+- Source URL: https://en.wikipedia.org/wiki/Backtracking
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] backtracking-solutions-not-only-leaves
+In backtracking, solutions need not be leaves of the search tree; intermediate nodes can also be valid solutions.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Backtracking.md
+- Source URL: https://en.wikipedia.org/wiki/Backtracking
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] backtracking-variable-trail-timestamps
+Variable trail or timestamps are implementation techniques for efficiently undoing assignments during backtracking.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Backtracking.md
+- Source URL: https://en.wikipedia.org/wiki/Backtracking
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] big-o-is-bachmann-landau-notation
+Big O notation is a member of the Bachmann–Landau family of asymptotic notations.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Big_O_notation.md
+- Source URL: https://en.wikipedia.org/wiki/Big_O_notation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] big-o-o-stands-for-ordnung
+The 'O' in Big O notation stands for Ordnung (order of approximation).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Big_O_notation.md
+- Source URL: https://en.wikipedia.org/wiki/Big_O_notation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] vinogradov-notation-equivalent-to-big-o
+Vinogradov notation f ≪ g is equivalent to f = O(g) and is commonly used in number theory.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Big_O_notation.md
+- Source URL: https://en.wikipedia.org/wiki/Big_O_notation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] big-o-additive-form-definition
+The additive form f(x) = h(x) + O(g(x)) means f(x) − h(x) = O(g(x)).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Big_O_notation.md
+- Source URL: https://en.wikipedia.org/wiki/Big_O_notation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] big-o-example-degree-four-polynomial
+For f(x) = 6x⁴ − 2x³ + 5, f(x) = O(x⁴) can be proven with M = 13 for x ≥ 1.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Big_O_notation.md
+- Source URL: https://en.wikipedia.org/wiki/Big_O_notation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] binary-search-alternative-names
+Binary search is also known as half-interval search, logarithmic search, or binary chop.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Binary_search.md
+- Source URL: https://en.wikipedia.org/wiki/Binary_search
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] binary-search-deferred-equality-variant
+The deferred equality check binary search variant eliminates one comparison per iteration, checks equality only when L = R, uses ceiling instead of floor, and converges to the rightmost match.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Binary_search.md
+- Source URL: https://en.wikipedia.org/wiki/Binary_search
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] binary-search-rightmost-variant-returns-r-minus-one
+The rightmost binary search variant returns R−1, and n − R gives the count of elements greater than the target T.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Binary_search.md
+- Source URL: https://en.wikipedia.org/wiki/Binary_search
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] binary-search-duplicates-arbitrary-index
+For duplicate elements, the standard binary search procedure returns an arbitrary matching index, while specialized variants find the leftmost or rightmost occurrence.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Binary_search.md
+- Source URL: https://en.wikipedia.org/wiki/Binary_search
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] binary-search-vs-bst-cache-and-insertion-tradeoff
+Binary search on a sorted array has better cache locality than BST traversal, but BSTs support O(log n) insertion compared to O(n) insertion for sorted arrays.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Binary_search.md
+- Source URL: https://en.wikipedia.org/wiki/Binary_search
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] exponential-search-extends-binary-search
+Exponential search extends binary search to unbounded lists by first finding a range.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Binary_search.md
+- Source URL: https://en.wikipedia.org/wiki/Binary_search
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bst-invented-1960
+The binary search tree was invented in 1960 and attributed to Windley, Booth, Colin, Hibbard, Berners-Lee, and Wheeler.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Binary_search_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Binary_search_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bst-costs-bounded-by-height
+In a BST, all operations cost O(h) where h is the tree height; balanced trees guarantee h = O(log n).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Binary_search_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Binary_search_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bst-predecessor-algorithm
+The in-order predecessor of a node x in a BST is the maximum of x's left subtree if it exists; otherwise, walk up ancestors until finding the first ancestor where x is in the right subtree.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Binary_search_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Binary_search_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bst-preorder-postorder-traversal-orders
+Preorder traversal of a BST visits nodes in node-left-right order; postorder visits nodes in left-right-node order.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Binary_search_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Binary_search_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] tree-sort-uses-bst-inorder
+Tree sort inserts all elements into a BST and then performs an inorder traversal, yielding O(n log n) average and O(n²) worst-case time.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Binary_search_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Binary_search_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] binary-tree-balanced-definition
+A balanced binary tree is a binary tree in which the left and right subtrees of every node differ in height by no more than 1.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Binary_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Binary_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] perfect-binary-tree-is-full
+Every perfect binary tree is a full binary tree.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Binary_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Binary_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] perfect-binary-tree-is-complete
+Every perfect binary tree is a complete binary tree, but not every complete binary tree is perfect.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Binary_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Binary_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] full-binary-tree-height-node-range
+A full binary tree of height h has between 2h + 1 and 2^(h+1) - 1 nodes.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Binary_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Binary_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] complete-binary-tree-internal-nodes-floor-half
+A complete binary tree with n nodes has floor(n/2) internal nodes.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Binary_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Binary_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] binary-tree-free-magma
+Binary trees can represent elements of a free magma on a singleton set.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Binary_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Binary_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bucket-sort-generalizes-pigeonhole-sort
+Bucket sort generalizes pigeonhole sort by allowing multiple elements per bucket rather than exactly one element per bucket.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Bucket_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Bucket_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bucket-sort-index-formula
+Bucket sort computes a bucket index using floor(k * array[i] / M), where k is the number of buckets and M is 1 + the maximum key value.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Bucket_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Bucket_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bucket-sort-stability-depends-on-sub-sort
+Bucket sort is not inherently stable or unstable; its stability depends on the sorting algorithm used within each bucket.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Bucket_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Bucket_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bucket-sort-four-phases
+Bucket sort proceeds in four phases: initialize buckets, scatter elements into buckets, sort each bucket, and gather buckets in order.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Bucket_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Bucket_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bucket-sort-scatter-back-optimization
+An optimization for bucket sort scatters elements back into the original array and then performs a single insertion sort pass, exploiting cache locality and the fact that elements are already close to their final positions.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Bucket_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Bucket_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bucket-sort-not-comparison-sort-pure
+Bucket sort is not a comparison sort in its pure form because it uses arithmetic to assign buckets, though it can be implemented with comparisons.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Bucket_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Bucket_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] counting-sort-invented-by-harold-seward-1954
+Counting sort was invented by Harold H. Seward in 1954.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Counting_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Counting_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] counting-sort-requires-nonnegative-integer-keys
+Counting sort requires keys to be non-negative integers and works best when the key range k is small relative to n.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Counting_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Counting_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] counting-sort-stores-single-count-per-key
+Counting sort stores only a single integer count per key value, unlike bucket sort which stores a collection of items per bucket.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Counting_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Counting_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] counting-sort-standard-not-in-place
+The standard counting sort is not in-place; it requires a separate output array of the same length as the input.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Counting_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Counting_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] counting-sort-parallelizes-via-subarray-counts
+Counting sort parallelizes by splitting the input into subarrays, computing per-subarray counts, and merging the count arrays, with the prefix sum phase being inherently parallelizable.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Counting_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Counting_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] counting-sort-duplicate-elimination-bit-vector
+A duplicate-elimination variant of counting sort replaces the count array with a bit vector, where a 1 at position i indicates that key i is present.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Counting_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Counting_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dfs-originated-with-tremaux-maze-solving
+Depth-first search was originally investigated by Charles Pierre Trémaux in the 19th century as a maze-solving strategy.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Depth-first_search.md
+- Source URL: https://en.wikipedia.org/wiki/Depth-first_search
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dfs-implicit-graph-time-o-b-d
+For implicit graphs with branching factor b searched to depth d, DFS time complexity is O(b^d).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Depth-first_search.md
+- Source URL: https://en.wikipedia.org/wiki/Depth-first_search
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dfs-without-visited-set-loops-on-cycles
+DFS without a visited set on graphs with cycles can loop forever.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Depth-first_search.md
+- Source URL: https://en.wikipedia.org/wiki/Depth-first_search
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dfs-incomplete-biased-toward-high-degree
+Incomplete DFS is biased toward nodes of high degree.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Depth-first_search.md
+- Source URL: https://en.wikipedia.org/wiki/Depth-first_search
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dfs-iterative-stack-of-nodes-may-have-duplicates
+The iterative stack-of-nodes DFS may have duplicate vertices on the stack, requiring a discovery check when a node is popped.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Depth-first_search.md
+- Source URL: https://en.wikipedia.org/wiki/Depth-first_search
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dfs-applications-include-scc-bridges-planarity
+DFS is used as a building block in algorithms for connected components, topological sorting, strongly connected components, bridges, biconnectivity, planarity testing, and maze solving/generation.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Depth-first_search.md
+- Source URL: https://en.wikipedia.org/wiki/Depth-first_search
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bfs-explored-before-enqueue
+BFS maintains an explored-before-enqueue invariant, marking a vertex as explored before or when it is enqueued to prevent duplicate entries in the queue.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Breadth-first_search.md
+- Source URL: https://en.wikipedia.org/wiki/Breadth-first_search
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bfs-parent-pointers-reconstruct-path
+BFS uses parent pointers to reconstruct the shortest path from the source to a target vertex.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Breadth-first_search.md
+- Source URL: https://en.wikipedia.org/wiki/Breadth-first_search
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bfs-standard-pseudocode-components
+Standard BFS pseudocode uses a queue, an explored set, and parent pointers.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Breadth-first_search.md
+- Source URL: https://en.wikipedia.org/wiki/Breadth-first_search
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dijkstra-relaxation-operation
+Dijkstra's algorithm uses a relaxation operation to update tentative distances of neighboring vertices.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Dijkstra27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dijkstra-early-termination-for-single-target
+For a single-target query, Dijkstra's algorithm can terminate early once the target vertex is extracted from the priority queue.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Dijkstra27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dijkstra-correctness-proof-by-induction
+Dijkstra's algorithm's correctness is proved by induction.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Dijkstra27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] union-find-register-allocation-application
+Union-find is used in register allocation.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Disjoint-set_data_structure.md
+- Source URL: https://en.wikipedia.org/wiki/Disjoint-set_data_structure
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] union-find-dynamic-connectivity-application
+Union-find supports dynamic connectivity queries.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Disjoint-set_data_structure.md
+- Source URL: https://en.wikipedia.org/wiki/Disjoint-set_data_structure
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] union-find-persistent-variants
+Persistent variants of the union-find data structure have been developed.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Disjoint-set_data_structure.md
+- Source URL: https://en.wikipedia.org/wiki/Disjoint-set_data_structure
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dnc-complexity-p-subproblems-linear-overhead
+For p sub-problems each of size n/p with O(n) divide/combine overhead, the divide-and-conquer recurrence solves to O(n log_p n).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Divide-and-conquer_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dnc-complexity-q-subproblems-half-size
+For q > 2 sub-problems each of size n/2 with O(n) overhead, the divide-and-conquer recurrence solves to O(n^(log_2 q)).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Divide-and-conquer_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dnc-single-subproblem-linear-overhead-complexity
+A divide-and-conquer recurrence with one sub-problem of size n/2 and O(n) overhead solves to O(n).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Divide-and-conquer_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dnc-two-half-subproblems-quadratic-overhead
+With two sub-problems of size n/2 and O(n²) combine overhead, the divide-and-conquer recurrence solves to O(n²).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Divide-and-conquer_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] akra-bazzi-generalizes-master-theorem
+The Akra-Bazzi method generalizes the Master Theorem for more complex divide-and-conquer recurrences.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Divide-and-conquer_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] pairwise-summation-improves-numerical-accuracy
+Pairwise summation using divide and conquer reduces floating-point error accumulation compared with naive iterative summation.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Divide-and-conquer_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] quicksort-recursion-depth-logarithmic-with-smaller-partition-first
+Quicksort's recursion depth can be limited to O(log n) by always recursing on the smaller partition first.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Divide-and-conquer_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dnc-arms-length-recursion-short-circuits-base-case
+Arm's-length recursion checks whether the next recursive call will hit a base case before making the call, avoiding unnecessary function invocations.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Divide-and-conquer_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dp-automatic-memoization-requires-referential-transparency
+Automatic memoization in dynamic programming requires referential transparency.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Dynamic_programming.md
+- Source URL: https://en.wikipedia.org/wiki/Dynamic_programming
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] hamilton-jacobi-bellman-extends-dp-to-continuous-control
+The Hamilton-Jacobi-Bellman equation extends dynamic programming to continuous control theory.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Dynamic_programming.md
+- Source URL: https://en.wikipedia.org/wiki/Dynamic_programming
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dp-backtracking-no-subproblem-reuse
+Backtracking does not reuse subproblem solutions, whereas dynamic programming stores and reuses them.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Dynamic_programming.md
+- Source URL: https://en.wikipedia.org/wiki/Dynamic_programming
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] fenwick-lsb-bit-trick-index-navigation
+Fenwick tree operations use the least significant set bit (LSB) of an index to navigate the implicit tree.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Fenwick_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Fenwick_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] fenwick-linear-time-construction
+A Fenwick tree can be built in O(n) time.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Fenwick_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Fenwick_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] fenwick-node-stores-range-sum-by-lsb
+Each Fenwick tree node stores the sum of a range of elements whose length is determined by the least significant bit of the node index.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Fenwick_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Fenwick_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] floyd-warshall-generalizes-widest-paths
+Floyd-Warshall generalizes to widest (maximum bottleneck) path problems by using a different semiring (replacing min/+ with max/min operations).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-FloydE28093Warshall_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] graph-adt-definition
+A graph consists of a finite set of vertices and a set of edges (unordered pairs for undirected graphs, ordered pairs for directed graphs).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Graph_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Graph_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] graph-three-canonical-representations
+The three canonical graph representations are adjacency list, adjacency matrix, and incidence matrix.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Graph_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Graph_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] graph-sparse-dense-definition
+A graph is sparse when |E| << |V|² and dense when |E| ≈ |V|².
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Graph_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Graph_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] add-edge-o1-adj-list-matrix
+Adding an edge costs O(1) for both adjacency list and adjacency matrix representations.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Graph_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Graph_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] remove-edge-complexity-adj-list-vs-matrix
+Removing an edge costs O(|V|) for an adjacency list but O(1) for an adjacency matrix.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Graph_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Graph_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] remove-vertex-complexity-adj-list-vs-matrix
+Removing a vertex costs O(|E|) for an adjacency list and O(|V|²) for an adjacency matrix.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Graph_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Graph_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] graph-adt-operations
+The graph ADT supports operations including adjacent, neighbors, add_vertex, remove_vertex, add_edge, remove_edge, get_vertex_value, set_vertex_value, get_edge_value, and set_edge_value.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Graph_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Graph_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] shared-vs-distributed-memory-graph-representation
+Shared memory parallel graph algorithms can reuse sequential representations, while distributed memory requires explicit graph partitioning.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Graph_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Graph_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] euler-formula-planar-graphs
+Euler's formula for connected planar graphs states V - E + F = 2, where V is vertices, E is edges, and F is faces.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Graph_theory.md
+- Source URL: https://en.wikipedia.org/wiki/Graph_theory
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mantel-theorem-triangle-free
+Mantel's theorem states that the maximum number of edges in a triangle-free graph on n vertices is floor(n²/4).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Graph_theory.md
+- Source URL: https://en.wikipedia.org/wiki/Graph_theory
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] turan-theorem-generalization
+Turán's theorem generalizes Mantel's theorem by giving the maximum number of edges in a graph avoiding a complete subgraph K_r.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Graph_theory.md
+- Source URL: https://en.wikipedia.org/wiki/Graph_theory
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] erdos-renyi-random-graph-theory
+Random graph theory was initiated by Erdős and Rényi studying asymptotic graph connectivity.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Graph_theory.md
+- Source URL: https://en.wikipedia.org/wiki/Graph_theory
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] spectral-graph-theory-definition
+Spectral graph theory studies the eigenvalues and eigenvectors of the adjacency matrix and Laplacian matrix.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Graph_theory.md
+- Source URL: https://en.wikipedia.org/wiki/Graph_theory
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] chromatic-polynomial-definition
+The chromatic polynomial P(G, k) counts the number of proper k-colorings of a graph G.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Graph_theory.md
+- Source URL: https://en.wikipedia.org/wiki/Graph_theory
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] tutte-polynomial-definition
+The Tutte polynomial is a two-variable polynomial that encodes connectivity properties of a graph.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Graph_theory.md
+- Source URL: https://en.wikipedia.org/wiki/Graph_theory
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] graph-minor-definition
+A graph minor is formed from a graph by deleting vertices and/or edges and contracting edges.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Graph_theory.md
+- Source URL: https://en.wikipedia.org/wiki/Graph_theory
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] greedy-local-optima-failure
+Greedy algorithms can get stuck at local optima and miss global optima, as in the hill-climbing trap.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Greedy_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Greedy_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] greedy-no-complete-characterization
+There is no complete characterization of when a problem admits a greedy solution.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Greedy_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Greedy_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] activity-selection-greedy-algorithm
+The activity selection problem is solved exactly by a greedy algorithm that sorts tasks by end time and repeatedly selects the first task that starts after the last selected task ends.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Greedy_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Greedy_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] zeckendorf-greedy-representation
+Zeckendorf representation is produced by repeatedly subtracting the largest Fibonacci number less than or equal to the remaining value, yielding a unique non-consecutive Fibonacci sum.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Greedy_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Greedy_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] greedy-01-knapsack-half-approximation
+Greedy on the fractional relaxation of 0-1 knapsack yields a solution with at least 1/2 of the optimal value.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Greedy_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Greedy_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] greedy-submodular-half-approximation
+Greedy algorithms for submodular maximization provide a ≥ 1/2 approximation guarantee.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Greedy_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Greedy_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] hash-table-definition
+A hash table (hash map, dictionary) is a data structure that implements an associative array by using a hash function to map keys to array indices.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Hash_table.md
+- Source URL: https://en.wikipedia.org/wiki/Hash_table
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] hash-table-invented-1953
+The hash table was invented in 1953 by Hans Peter Luhn at IBM.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Hash_table.md
+- Source URL: https://en.wikipedia.org/wiki/Hash_table
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] hash-table-space-complexity
+Hash table space complexity is Θ(n) on average and O(n) in the worst case.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Hash_table.md
+- Source URL: https://en.wikipedia.org/wiki/Hash_table
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] hash-collision-definition
+A hash collision occurs when a hash function maps two or more distinct keys to the same index.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Hash_table.md
+- Source URL: https://en.wikipedia.org/wiki/Hash_table
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] hash-division-method
+The division method for hashing computes h(x) = x mod m, with prime m often preferred.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Hash_table.md
+- Source URL: https://en.wikipedia.org/wiki/Hash_table
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] hash-multiplication-method
+The multiplication method computes h(x) = floor(m * ((x * A) mod 1)) with A a non-integer constant; Knuth suggests the golden ratio for A.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Hash_table.md
+- Source URL: https://en.wikipedia.org/wiki/Hash_table
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] separate-chaining-bst-worst-case
+Using a self-balancing BST instead of a linked list for separate chaining reduces the worst-case per-bucket lookup from O(n) to O(log n).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Hash_table.md
+- Source URL: https://en.wikipedia.org/wiki/Hash_table
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cuckoo-hashing-worst-case-o1
+Cuckoo hashing is an open addressing variant that uses two hash functions to achieve worst-case O(1) lookup.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Hash_table.md
+- Source URL: https://en.wikipedia.org/wiki/Hash_table
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] heap-implements-priority-queue-adt
+A heap is the canonical implementation of the priority queue ADT.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Heap_data_structure.md
+- Source URL: https://en.wikipedia.org/wiki/Heap_(data_structure)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] heap-introduced-williams-1964
+The heap data structure was introduced by J. W. J. Williams in 1964 alongside heapsort.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Heap_data_structure.md
+- Source URL: https://en.wikipedia.org/wiki/Heap_(data_structure)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] binary-heap-complete-tree-height
+A binary heap is a complete binary tree, giving it the smallest possible height O(log n).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Heap_data_structure.md
+- Source URL: https://en.wikipedia.org/wiki/Heap_(data_structure)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] heap-find-max-o1-regardless-variant
+For all heap variants listed, find-max (peek) returns the root element in O(1) time.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Heap_data_structure.md
+- Source URL: https://en.wikipedia.org/wiki/Heap_(data_structure)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] heap-merge-vs-meld-preserves-originals
+Merge/union joins two heaps while preserving the originals, whereas meld joins two heaps and destroys the originals.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Heap_data_structure.md
+- Source URL: https://en.wikipedia.org/wiki/Heap_(data_structure)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] pairing-heap-amortized-bounds
+Pairing heaps provide Θ(1) find-max, Θ(1) insert, Θ(1) meld, O(log n) amortized delete-max, and o(log n) amortized increase-key.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Heap_data_structure.md
+- Source URL: https://en.wikipedia.org/wiki/Heap_(data_structure)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] floyd-heapify-exact-comparisons
+Floyd's bottom-up heapify has exact worst-case comparison count 2n - 2s₂(n) - e₂(n), where s₂ is popcount and e₂ is trailing zero count.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Heapsort.md
+- Source URL: https://en.wikipedia.org/wiki/Heapsort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] williams-heapify-topup-nlogn
+Williams' top-up heapify appends elements one at a time using siftUp and has O(n log n) worst-case time; practical implementations use Floyd's bottom-up version.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Heapsort.md
+- Source URL: https://en.wikipedia.org/wiki/Heapsort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bottom-up-heapsort-reduces-comparisons
+Bottom-up heapsort reduces average comparisons from 2n log₂ n to n log₂ n by searching down to a leaf then sifting up.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Heapsort.md
+- Source URL: https://en.wikipedia.org/wiki/Heapsort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] weak-heapsort-extra-bit
+Weak heapsort uses one extra bit per node to achieve n log₂ n + O(n) comparisons.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Heapsort.md
+- Source URL: https://en.wikipedia.org/wiki/Heapsort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] smoothsort-nearly-sorted-linear
+Smoothsort, a heapsort variant by Dijkstra, approaches O(n) time on nearly-sorted input.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Heapsort.md
+- Source URL: https://en.wikipedia.org/wiki/Heapsort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] heapsort-is-heap-based-selection-sort
+Heapsort is conceptually a selection sort that uses a heap to efficiently find the maximum.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Heapsort.md
+- Source URL: https://en.wikipedia.org/wiki/Heapsort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] centered-interval-tree-point-query-logic
+In a centered interval tree point query, if x < center report S_center intervals with start ≤ x and recurse left; if x > center report S_center intervals with end ≥ x and recurse right; if x == center report all S_center intervals.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Interval_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Interval_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] interval-tree-interval-query-procedure
+Interval-interval query uses a separate search tree of endpoints to find intervals with endpoints inside the query, then a point query to find intervals enclosing the query, then deduplicates with a binary flag per interval.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Interval_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Interval_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] augmented-tree-max-high-maintenance
+Augmented interval tree insert/delete updates max_high bottom-up along ancestors in O(h) per operation and must also update on tree rotations.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Interval_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Interval_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] interval-tree-small-integer-range-o1
+When interval endpoints fall in [1,...,O(n)], optimal interval structures exist with O(n) preprocessing and O(1 + m) query time.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Interval_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Interval_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] centered-interval-tree-deletion-cascades
+Deletion in a centered interval tree is more complex than standard BST deletion because promoted nodes may need to absorb intervals from former ancestors, potentially cascading further deletions.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Interval_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Interval_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] centered-interval-tree-rotation-invariant
+Centered interval tree deletion and rotation must preserve the invariant that each interval is stored at the node closest to the root among all nodes whose center point it overlaps.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Interval_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Interval_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dual-sorted-interval-trees-merge-linear
+A naive dual-tree interval query using two trees sorted by start and end still requires O(n) to merge results, giving no asymptotic improvement over brute force.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Interval_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Interval_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] maximum-subarray-problem-definition
+The maximum subarray problem asks, given array A[1...n], for indices i ≤ j maximizing A[i]+...+A[j].
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Kadane27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Kadane%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] max-subarray-trivial-cases
+For maximum subarray, all non-negative numbers make the entire array optimal; all non-positive numbers make the single element closest to zero optimal (or empty subarray if permitted).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Kadane27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Kadane%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] max-subarray-multiple-optima
+Multiple subarrays may share the same maximum sum.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Kadane27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Kadane%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] kadane-example-sum-6
+For array [-2,1,-3,4,-1,2,1,-5,4], the maximum subarray is [4,-1,2,1] with sum 6.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Kadane27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Kadane%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] shamos-divide-conquer-crossing-subarray
+Shamos's O(n log n) maximum subarray algorithm splits the array, solves each half recursively, and combines by finding the best crossing subarray.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Kadane27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Kadane%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] k-largest-subarray-sums-linear
+Finding the k largest subarray sums in a one-dimensional array is solvable in optimal O(n+k) time (Brodal & Jorgensen, 2007).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Kadane27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Kadane%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] k-disjoint-subarrays-linear
+Maximum sum of k non-overlapping subarrays is solvable in O(n+k) time (Bengtsson & Chen, 2007).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Kadane27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Kadane%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] knapsack-problem-statement
+The knapsack problem: given n items each with weight w_i and value v_i and capacity W, select a subset maximizing total value subject to total weight ≤ W.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Knapsack_problem.md
+- Source URL: https://en.wikipedia.org/wiki/Knapsack_problem
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] knapsack-optimization-verification-co-np-complete
+In the optimization version of knapsack, verifying that a proposed solution is optimal is co-NP-complete.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Knapsack_problem.md
+- Source URL: https://en.wikipedia.org/wiki/Knapsack_problem
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] knapsack-top-down-memoized-runtime-range
+Top-down memoized 0-1 knapsack runs in time between O(nW) and O(2^n) depending on which subproblems are visited.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Knapsack_problem.md
+- Source URL: https://en.wikipedia.org/wiki/Knapsack_problem
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] knapsack-gcd-weight-optimization
+Dividing all weights and the capacity W by their greatest common divisor reduces the DP table size and improves running time.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Knapsack_problem.md
+- Source URL: https://en.wikipedia.org/wiki/Knapsack_problem
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] knapsack-survey-rank-1999
+In a 1999 Stony Brook survey of 75 combinatorial algorithm problems, knapsack ranked 19th most popular and 3rd most needed.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Knapsack_problem.md
+- Source URL: https://en.wikipedia.org/wiki/Knapsack_problem
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] knapsack-decision-optimization-equivalence
+A polynomial-time algorithm for the knapsack decision version implies a polynomial-time algorithm for the optimization version, and vice versa.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Knapsack_problem.md
+- Source URL: https://en.wikipedia.org/wiki/Knapsack_problem
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] subset-sum-linear-decision-tree-bounds
+For subset sum in the linear decision tree model, the lower bound is (1/2)n² (Dobkin-Lipton) and the upper bound is O(n⁴) (Meyer auf der Heide).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Knapsack_problem.md
+- Source URL: https://en.wikipedia.org/wiki/Knapsack_problem
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] kruskal-published-1956
+Kruskal's algorithm was first published by Joseph Kruskal in 1956.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Kruskal27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Kruskal%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] kruskal-cycle-detection-condition
+In Kruskal's algorithm, an edge {u, v} creates a cycle if and only if FIND-SET(u) equals FIND-SET(v).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Kruskal27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Kruskal%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] filter-kruskal-threshold-fallback
+Filter-Kruskal falls back to standard Kruskal when the number of edges is below a threshold called kruskal_threshold.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Kruskal27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Kruskal%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] reverse-delete-starts-all-edges
+The reverse-delete MST algorithm starts with all edges and repeatedly removes the heaviest edge that does not disconnect the graph.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Kruskal27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Kruskal%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] boruvka-simultaneous-cheapest-edge
+Boruvka's algorithm has each component select its cheapest outgoing edge simultaneously, making it naturally parallelizable.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Kruskal27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Kruskal%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] kruskal-tie-breaking-arbitrary
+Ties in edge weights can be broken arbitrarily in Kruskal's algorithm without affecting correctness.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Kruskal27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Kruskal%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] kruskal-produces-single-linkage-dendrogram
+Kruskal's algorithm directly produces a single-linkage hierarchical clustering dendrogram.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Kruskal27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Kruskal%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] linked-list-node-structure
+A linked list node contains a data or payload field and one or more link or pointer fields to other nodes.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Linked_list.md
+- Source URL: https://en.wikipedia.org/wiki/Linked_list
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] linked-list-head-provides-access
+The head is the first node in a linked list and provides access to the entire structure.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Linked_list.md
+- Source URL: https://en.wikipedia.org/wiki/Linked_list
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] multiply-linked-list-multiple-orderings
+A multiply linked list has nodes with two or more link fields that connect the same data in different orderings, such as by name and by date.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Linked_list.md
+- Source URL: https://en.wikipedia.org/wiki/Linked_list
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] linked-list-cycle-detection-floyd
+Floyd's cycle detection algorithm uses two pointers moving at different speeds; if they meet, the linked list contains a cycle.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Linked_list.md
+- Source URL: https://en.wikipedia.org/wiki/Linked_list
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cdr-coding-inline-data
+CDR coding is an optimization for linked lists that replaces pointers with inline data to reduce pointer overhead.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Linked_list.md
+- Source URL: https://en.wikipedia.org/wiki/Linked_list
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] unrolled-linked-list-multiple-elements
+An unrolled linked list stores multiple elements per node, improving cache performance and reducing pointer overhead compared with a standard linked list.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Linked_list.md
+- Source URL: https://en.wikipedia.org/wiki/Linked_list
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] os-process-thread-lists-doubly-linked
+Operating systems use doubly linked lists to maintain active process and thread lists.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Linked_list.md
+- Source URL: https://en.wikipedia.org/wiki/Linked_list
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] linked-list-created-ipl-1955
+Linked lists were created by Newell, Shaw, and Simon in 1955-56 for IPL.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Linked_list.md
+- Source URL: https://en.wikipedia.org/wiki/Linked_list
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] algorithm-catalog-organized-by-domain
+The List of Algorithms reference taxonomy organizes algorithms by problem domain rather than by technique, so the same method can appear under multiple categories.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-List_of_algorithms.md
+- Source URL: https://en.wikipedia.org/wiki/List_of_algorithms
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] graph-algorithms-subdomains
+Graph algorithms subdivide into matching, coloring, drawing, network flow, routing, search/traversal, and subgraph problems.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-List_of_algorithms.md
+- Source URL: https://en.wikipedia.org/wiki/List_of_algorithms
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sorting-algorithms-classified-by-mechanism
+Sorting algorithms are classified by mechanism into exchange sorts, insertion sorts, merge sorts, selection sorts, non-comparison sorts, and hybrid sorts.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-List_of_algorithms.md
+- Source URL: https://en.wikipedia.org/wiki/List_of_algorithms
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ford-fulkerson-max-flow-framework
+Ford-Fulkerson is the framework for maximum flow algorithms.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-List_of_algorithms.md
+- Source URL: https://en.wikipedia.org/wiki/List_of_algorithms
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] edmonds-karp-bfs-polynomial
+Edmonds-Karp is the breadth-first-search implementation of Ford-Fulkerson that guarantees polynomial time.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-List_of_algorithms.md
+- Source URL: https://en.wikipedia.org/wiki/List_of_algorithms
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dinic-strongly-polynomial
+Dinic's maximum flow algorithm is strongly polynomial.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-List_of_algorithms.md
+- Source URL: https://en.wikipedia.org/wiki/List_of_algorithms
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gale-shapley-stable-matching
+The Gale-Shapley algorithm solves the stable matching problem.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-List_of_algorithms.md
+- Source URL: https://en.wikipedia.org/wiki/List_of_algorithms
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] scc-tarjan-kosaraju-linear
+Tarjan's and Kosaraju's algorithms both find strongly connected components in linear time.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-List_of_algorithms.md
+- Source URL: https://en.wikipedia.org/wiki/List_of_algorithms
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] primitive-types-list
+Primitive types in the taxonomy include Boolean, Character, Integer, Floating-point (IEEE 754 single/double precision), Fixed-point, Reference, Symbol, Enumerated type, and Complex.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-List_of_data_structures.md
+- Source URL: https://en.wikipedia.org/wiki/List_of_data_structures
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] composite-types-list
+Composite types include Array (contiguous same-type), Record/Struct (named fields), Tuple/Product type (unnamed fields), String, Union, and Tagged union.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-List_of_data_structures.md
+- Source URL: https://en.wikipedia.org/wiki/List_of_data_structures
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] core-adts-list
+Core abstract data types include List, Stack, Queue, Deque, Set, Multiset, Map, Multimap, Graph, Tree, and Heap.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-List_of_data_structures.md
+- Source URL: https://en.wikipedia.org/wiki/List_of_data_structures
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] linear-structures-array-linked-list-families
+Linear data structures have elements forming a sequence, with arrays and linked lists as the two fundamental families.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-List_of_data_structures.md
+- Source URL: https://en.wikipedia.org/wiki/List_of_data_structures
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] self-balancing-bst-variants-list
+Self-balancing binary search trees such as AVL, Red-black, Splay, Treap, Scapegoat, AA, WAVL, and Zip maintain O(log n) operations by rebalancing on mutation.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-List_of_data_structures.md
+- Source URL: https://en.wikipedia.org/wiki/List_of_data_structures
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] probabilistic-hash-structures-list
+Probabilistic hash-based data structures include Bloom filters, Cuckoo filters, Count-min sketches, and MinHash.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-List_of_data_structures.md
+- Source URL: https://en.wikipedia.org/wiki/List_of_data_structures
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] space-partitioning-trees-list
+Space-partitioning trees such as k-d trees, quadtrees, octrees, R-trees, and BSP trees organize multi-dimensional spatial data.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-List_of_data_structures.md
+- Source URL: https://en.wikipedia.org/wiki/List_of_data_structures
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] two-three-four-tree-isomorphic-red-black
+A 2-3-4 tree is isomorphic to a red-black tree.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-List_of_data_structures.md
+- Source URL: https://en.wikipedia.org/wiki/List_of_data_structures
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] lcs-finds-common-subsequence-all-sequences
+The longest common subsequence problem finds the longest subsequence present in all sequences from a given set.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Longest_common_subsequence.md
+- Source URL: https://en.wikipedia.org/wiki/Longest_common_subsequence
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] lcs-example-abcd-acbad
+For the sequences (ABCD) and (ACBAD), both (ABD) and (ACD) are longest common subsequences of length 3.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Longest_common_subsequence.md
+- Source URL: https://en.wikipedia.org/wiki/Longest_common_subsequence
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] lcs-base-case-empty
+In the LCS dynamic programming recurrence, if either sequence is empty, the LCS is the empty string.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Longest_common_subsequence.md
+- Source URL: https://en.wikipedia.org/wiki/Longest_common_subsequence
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] lcs-generalizes-sequence-alignment
+LCS generalizes to sequence alignment scoring in DNA and protein sequence comparison in bioinformatics.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Longest_common_subsequence.md
+- Source URL: https://en.wikipedia.org/wiki/Longest_common_subsequence
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] lcs-strip-matching-prefix-suffix
+A practical LCS optimization strips matching prefixes and suffixes before building the dynamic programming table.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Longest_common_subsequence.md
+- Source URL: https://en.wikipedia.org/wiki/Longest_common_subsequence
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] memoization-definition-caches-pure-function-results
+Memoization is an optimization technique that stores the results of expensive pure function calls and returns the cached result when the same inputs recur.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Memoization.md
+- Source URL: https://en.wikipedia.org/wiki/Memoization
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] memoization-coined-by-donald-michie-1968
+The term memoization was coined by Donald Michie in 1968.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Memoization.md
+- Source URL: https://en.wikipedia.org/wiki/Memoization
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] memoized-cache-populated-on-the-fly
+A memoized function populates its cache on the fly as new inputs are encountered, unlike a precomputed lookup table.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Memoization.md
+- Source URL: https://en.wikipedia.org/wiki/Memoization
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] memoization-space-time-tradeoff
+Memoization trades increased memory usage for reduced computation time, typically using a hash table.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Memoization.md
+- Source URL: https://en.wikipedia.org/wiki/Memoization
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] memoization-cache-keyed-by-arguments
+Memoized results are keyed by the function's input arguments in an associative array or hash map.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Memoization.md
+- Source URL: https://en.wikipedia.org/wiki/Memoization
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] memoization-cache-replacement-fixed-or-unbounded
+A memoization cache may be fixed-size with a replacement algorithm or unbounded, depending on the use case.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Memoization.md
+- Source URL: https://en.wikipedia.org/wiki/Memoization
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] memoization-called-tabling-in-logic-programming
+In logic programming languages, memoization is called tabling.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Memoization.md
+- Source URL: https://en.wikipedia.org/wiki/Memoization
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] memoization-singleton-pattern-degenerate-case
+Creating an object on first call and returning the cached instance thereafter is a degenerate form of memoization.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Memoization.md
+- Source URL: https://en.wikipedia.org/wiki/Memoization
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mergesort-invented-by-john-von-neumann-1945
+Merge sort was invented by John von Neumann in 1945.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Merge_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Merge_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mergesort-is-comparison-based-divide-and-conquer
+Merge sort is an efficient, general-purpose, comparison-based sorting algorithm that uses the divide-and-conquer strategy.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Merge_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Merge_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mergesort-has-top-down-and-bottom-up-implementations
+Merge sort has top-down recursive and bottom-up iterative implementations.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Merge_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Merge_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mergesort-bottom-up-starts-runs-size-1
+Bottom-up merge sort starts with runs of size 1 and doubles the run width each pass.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Merge_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Merge_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mergesort-sequential-access-advantage
+Merge sort is more efficient than quicksort when data can only be accessed sequentially, such as linked lists or tapes.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Merge_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Merge_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mergesort-worst-case-comparison-formula
+The exact worst-case comparison count for merge sort is n⌈lg n⌉ − 2^⌈lg n⌉ + 1.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Merge_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Merge_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] tiled-mergesort-uses-insertion-sort-for-cache-subarrays
+Tiled merge sort uses insertion sort for subarrays that fit in cache, then standard merge sort above that level.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Merge_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Merge_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mergesort-space-reduction-copies-left-half
+Merge sort's auxiliary space can be reduced to n/2 by copying only the left half to temporary space and merging in-place into the original array.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Merge_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Merge_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] prim-origin-jarnik-1930-prim-1957-dijkstra-1959
+Prim's algorithm was developed by Vojtěch Jarník in 1930 and independently rediscovered by Robert C. Prim in 1957 and Edsger W. Dijkstra in 1959.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Prim27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Prim%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] prim-output-forest-by-running-per-component
+For disconnected graphs, running Prim's algorithm separately on each connected component finds the minimum spanning forest.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Prim27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Prim%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] prim-main-loop-sequential-inner-loop-parallelizable
+Prim's main loop is inherently sequential, but its inner loop for finding the minimum-weight crossing edge can be parallelized.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Prim27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Prim%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] prim-starting-vertex-does-not-affect-total-weight
+The starting vertex in Prim's algorithm is arbitrary and does not affect the total MST weight, though it may produce a different MST when ties exist.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Prim27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Prim%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] prim-exchange-argument-proves-correctness
+Prim's correctness can be proved by an exchange argument: the first differing edge can replace an edge in some MST without increasing total weight.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Prim27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Prim%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] prim-greedoid-framework-explains-optimality
+The matroid/greedoid framework provides the theoretical foundation explaining why Prim's greedy choices yield a globally optimal MST.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Prim27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Prim%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] prim-dary-heap-dense-linear-condition
+Prim's algorithm achieves linear time on dense graphs using a d-ary heap when |E| ≥ |V|^c for c > 1.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Prim27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Prim%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] prim-kruskal-boruvka-equivalent-asymptotic-on-sparse
+Prim's, Kruskal's, and Borůvka's algorithms have equivalent asymptotic complexity on sparse graphs.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Prim27s_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Prim%27s_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] priority-queue-has-min-and-max-variants
+Priority queues have min-priority and max-priority variants.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Priority_queue.md
+- Source URL: https://en.wikipedia.org/wiki/Priority_queue
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] priority-queue-used-in-huffman-astar-event-simulation
+Priority queues are used in Huffman coding, A* search, and discrete event simulation.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Priority_queue.md
+- Source URL: https://en.wikipedia.org/wiki/Priority_queue
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] priority-queue-stdlib-classes-vary-across-languages
+Standard library priority queue classes across seven languages differ in default ordering and backing data structure.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Priority_queue.md
+- Source URL: https://en.wikipedia.org/wiki/Priority_queue
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] integer-key-priority-queue-specializations
+Priority queues with integer keys can be specialized using bucket queues or van Emde Boas trees.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Priority_queue.md
+- Source URL: https://en.wikipedia.org/wiki/Priority_queue
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] queue-fifo-definition
+A queue is an abstract data type that maintains an ordered collection of elements following First-In-First-Out (FIFO) order.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Queue_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] queue-enqueue-dequeue-o1
+Queue enqueue and dequeue operations both run in O(1) time.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Queue_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] queue-search-on
+Searching a queue takes O(n) time because elements must be traversed without indexing.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Queue_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bounded-queue-overflow-underflow
+In a bounded queue, enqueueing beyond capacity causes overflow, and dequeuing from an empty queue causes underflow.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Queue_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] queue-is-restricted-deque
+A queue can be viewed as a restricted double-ended queue (deque).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Queue_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] singly-linked-list-queue-requires-tail-pointer
+An efficient queue implementation using a singly linked list needs a tail pointer in addition to a head pointer.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Queue_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] java-queue-interface-since-j2se5
+Java's Queue interface has existed since J2SE 5.0 and is implemented by LinkedList and ArrayDeque.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Queue_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] quicksort-hoare-return-j-floor-pivot
+In Hoare's partition scheme, the partition function must return j (not i) and use a floor-based pivot to avoid infinite recursion.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Quicksort.md
+- Source URL: https://en.wikipedia.org/wiki/Quicksort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] quicksort-hoare-pivot-final-location
+In Hoare's partition scheme, the pivot's final location is not necessarily at the index returned by the partition function.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Quicksort.md
+- Source URL: https://en.wikipedia.org/wiki/Quicksort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] quicksort-partition-recursion-bounds
+Lomuto partition recurses on (lo..p-1) and (p+1..hi) excluding the pivot, while Hoare partition recurses on (lo..p) and (p+1..hi) including the pivot in the left half.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Quicksort.md
+- Source URL: https://en.wikipedia.org/wiki/Quicksort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] quicksort-insertion-sort-fallback-threshold
+Practical quicksort implementations switch to insertion sort for subarrays below a threshold of about 10 elements.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Quicksort.md
+- Source URL: https://en.wikipedia.org/wiki/Quicksort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] quicksort-midpoint-overflow-avoidance
+Computing (lo + hi) / 2 can overflow, so quicksort implementations should use lo + (hi - lo) / 2 instead.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Quicksort.md
+- Source URL: https://en.wikipedia.org/wiki/Quicksort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] quicksort-ninther-pivot-selection
+The ninther pivot selection method uses the median of three medians-of-three and is used for larger arrays.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Quicksort.md
+- Source URL: https://en.wikipedia.org/wiki/Quicksort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] quicksort-three-way-partition-two-indices
+Three-way partition returns two indices bounding the equal-to-pivot region and recurses on (lo..lt-1) and (gt+1..hi).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Quicksort.md
+- Source URL: https://en.wikipedia.org/wiki/Quicksort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] radix-sort-history-hollerith-1887
+Radix sort dates back to Herman Hollerith's 1887 tabulating machines.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Radix_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Radix_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] radix-sort-msd-naturally-parallelizable
+MSD radix sort is naturally parallelizable because each bucket can be sorted on a separate processor.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Radix_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Radix_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] radix-sort-signed-integers-sign-bit
+For two's complement signed integers, radix sort must treat the most significant (sign) bit with opposite sense, inverting comparison on the sign bit.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Radix_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Radix_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] radix-sort-single-pass-digit-counting
+Counting all digit frequencies in a single pass reduces radix sort's total passes from Θ(2d(n+k)) to Θ((d+1)(n+k)).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Radix_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Radix_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] radix-sort-msd-insertion-sort-hybrid
+Hybrid MSD radix sort switches to insertion sort for small buckets to reduce constant-factor overhead.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Radix_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Radix_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] radix-sort-radix-base-definition
+In radix sort, the radix is the base of the number system used for digit extraction, such as base-10 or base-256 for byte-level processing.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Radix_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Radix_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] radix-sort-applicability-lexicographic-data
+Radix sort applies to any lexicographically sortable data, including integers, strings, punch cards, and mail.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Radix_sort.md
+- Source URL: https://en.wikipedia.org/wiki/Radix_sort
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] recursion-base-case-required
+A recursive function requires a base case that returns a direct result without further recursion; omitting it causes infinite recursion or stack overflow.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Recursion_computer_science.md
+- Source URL: https://en.wikipedia.org/wiki/Recursion_(computer_science)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] recursion-direct-and-indirect
+Direct recursion occurs when a function calls itself; indirect (mutual) recursion occurs when function f calls function g, which calls f again, possibly through chains of three or more functions.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Recursion_computer_science.md
+- Source URL: https://en.wikipedia.org/wiki/Recursion_(computer_science)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] recursion-generative-examples
+Generative recursion generates new data from the input and recurses on it, with examples including quicksort, binary search, mergesort, Newton's method, and GCD.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Recursion_computer_science.md
+- Source URL: https://en.wikipedia.org/wiki/Recursion_(computer_science)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] recursion-tail-call-optimization
+Tail call optimization reuses stack frames when the recursive call is the last operation, improving recursive performance.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Recursion_computer_science.md
+- Source URL: https://en.wikipedia.org/wiki/Recursion_(computer_science)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] recursion-wrapper-function-pattern
+The wrapper function pattern validates parameters, initializes state, and delegates to a private recursive auxiliary function, often also setting up memoization.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Recursion_computer_science.md
+- Source URL: https://en.wikipedia.org/wiki/Recursion_(computer_science)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] recursion-recursive-data-types-inductive-coinductive
+Recursive data types are self-referential data definitions such as linked lists, natural numbers, and BNF grammars; inductive definitions specify how to construct instances, while coinductive definitions specify operations on possibly infinite structures.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Recursion_computer_science.md
+- Source URL: https://en.wikipedia.org/wiki/Recursion_(computer_science)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] redblack-definition-self-balancing-bst-color-bit
+A red-black tree is a self-balancing binary search tree where each node stores an extra color bit (red or black) and coloring constraints ensure the tree remains approximately balanced.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-RedE28093black_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Red%E2%80%93black_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] redblack-read-operations-identical-bst
+Red-black tree read-only operations such as search and traversal are identical to standard binary search tree operations.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-RedE28093black_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Red%E2%80%93black_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] redblack-single-child-must-be-red
+In a red-black tree, a node with exactly one child must have that child be red.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-RedE28093black_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Red%E2%80%93black_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] redblack-llrb-left-leaning
+LLRB (left-leaning red-black tree) is Sedgewick's 2008 simplification of red-black trees in which red links lean left only.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-RedE28093black_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Red%E2%80%93black_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] redblack-root-black-rule-nonessential
+The red-black tree rule that the root must be black is non-essential because a red root can always be recolored.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-RedE28093black_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Red%E2%80%93black_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] segtree-definition-stabbing-queries
+A segment tree is a classical data structure that stores intervals and solves stabbing queries.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Segment_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Segment_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] segtree-elementary-intervals-4n-plus-1
+A segment tree partitions the real line into up to 4n+1 elementary intervals.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Segment_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Segment_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] segtree-complexity-build-query
+A segment tree has O(n log n) build time and storage, and answers queries in O(log n + k) time where k is the number of reported intervals.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Segment_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Segment_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] segtree-higher-dimensions-fractional-cascading
+Segment trees generalize to higher dimensions with multi-level structures, and fractional cascading can optimize them.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Segment_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Segment_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] segtree-history-bentley-1977
+The segment tree was invented by Bentley in 1977.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Segment_tree.md
+- Source URL: https://en.wikipedia.org/wiki/Segment_tree
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] static-sets-immutable-dynamic-sets-mutable
+Static (frozen) sets are immutable after construction and support only query operations such as membership testing and enumeration; dynamic (mutable) sets additionally support insertion and deletion.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Set_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Set_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] multiset-allows-duplicate-elements
+A multiset (bag) is a generalization of a set that allows duplicate elements and tracks element multiplicity.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Set_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Set_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] set-core-operations-union-intersection-difference-subset
+Core set-theoretic operations include union(S,T), intersection(S,T), difference(S,T), and subset(S,T).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Set_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Set_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sql-distinct-converts-multiset-to-set
+In SQL, SELECT DISTINCT converts a multiset query result into a set.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Set_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Set_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] naive-list-set-membership-deletion-on
+A naive list-based set implementation has O(n) membership and deletion, and insertion is O(1) only if duplicates are not checked.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Set_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Set_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sorted-list-set-union-linear-merge
+Union of two sorted-list set implementations can be performed in O(m+n) using a merge, compared with O(m×n) for the naive approach.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Set_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Set_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] multiset-counter-associative-array-counts
+A multiset can be implemented as an associative array mapping values to counts, as in Python's collections.Counter.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Set_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Set_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sliding-window-protocol-flow-control-reliable-delivery
+The sliding window protocol is a flow-control and reliable-delivery mechanism for packet-based data transmission that lets a sender transmit multiple packets before requiring acknowledgment.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Sliding_window_protocol.md
+- Source URL: https://en.wikipedia.org/wiki/Sliding_window_protocol
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sliding-window-operates-at-data-link-and-transport-layers
+Sliding windows operate at the data link layer (OSI layer 2) and the transport layer (TCP).
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Sliding_window_protocol.md
+- Source URL: https://en.wikipedia.org/wiki/Sliding_window_protocol
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sliding-window-slides-forward-on-ack
+In a sliding window protocol, the window slides forward as acknowledgments arrive.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Sliding_window_protocol.md
+- Source URL: https://en.wikipedia.org/wiki/Sliding_window_protocol
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sliding-window-variable-invariant-na-nr-ns-nt
+Sliding window state variables satisfy the invariant na <= nr <= ns <= nt <= na + wt, where nt is next to transmit, nr is first not received, ns is one past greatest received, na is greatest acknowledgment, and wt is the sender window.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Sliding_window_protocol.md
+- Source URL: https://en.wikipedia.org/wiki/Sliding_window_protocol
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] tcp-ack-cumulative-nr
+TCP acknowledgments carry nr as a cumulative ACK of all packets below that sequence number, though selective ACK (SACK) extends this.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Sliding_window_protocol.md
+- Source URL: https://en.wikipedia.org/wiki/Sliding_window_protocol
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] hdlc-uses-3-bit-sequence-numbers
+HDLC uses a 3-bit sequence number (N=8); with Go-Back-N wt <= 7, and with Selective Repeat and wr=2 wt <= 6.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Sliding_window_protocol.md
+- Source URL: https://en.wikipedia.org/wiki/Sliding_window_protocol
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sorting-output-monotonic-permutation
+A correct sorting algorithm must produce output that is monotonically ordered and is a permutation of the input.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Sorting_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Sorting_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] in-place-sort-requires-o1-extra-memory
+An in-place sort strictly requires only O(1) extra memory, although O(log n) extra memory is sometimes considered in-place.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Sorting_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Sorting_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] smoothsort-adaptive-linear-sorted-input
+Smoothsort is an adaptive sort that achieves O(n) time on already-sorted data.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Sorting_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Sorting_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] insertion-sort-online-processing
+Insertion sort can process input online as it arrives without needing the full dataset upfront.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Sorting_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Sorting_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] selection-sort-n-minus-one-swaps
+Selection sort makes exactly n−1 swaps, which is optimal for expensive writes, but is O(n^2) in all cases.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Sorting_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Sorting_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] timsort-hybrid-merge-insertion
+Timsort is a hybrid of merge sort and insertion sort.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Sorting_algorithm.md
+- Source URL: https://en.wikipedia.org/wiki/Sorting_algorithm
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dynamic-array-stack-amortized-o1
+A dynamic-array-based stack provides amortized O(1) push and pop as it grows and shrinks.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Stack_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] stack-hardware-duplicate-swap-rotate
+Some hardware stack architectures provide additional operations such as Duplicate, Swap/Exchange, and Rotate/Roll.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Stack_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cisc-has-stack-instructions-risc-generally-lacks
+CISC processors such as x86, Z80, and 68000 typically have dedicated stack pointer registers and push/pop instructions, while RISC processors generally do not.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Stack_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] stack-machines-use-implicit-top-of-stack-operands
+Stack machines use the implicit top of stack as operands for arithmetic and logic operations.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Stack_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] stack-oriented-languages-forth-postscript
+Forth and PostScript are stack-oriented languages that operate directly on language-visible stacks.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Stack_abstract_data_type.md
+- Source URL: https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] topological-sort-linear-ordering-definition
+A topological sort of a DAG produces a linear ordering of vertices such that for every directed edge (u, v), u appears before v.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Topological_sorting.md
+- Source URL: https://en.wikipedia.org/wiki/Topological_sorting
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] topological-sort-equivalent-linear-extension-partial-order
+A topological ordering of a DAG is equivalent to a linear extension of the partial order defined by reachability in the DAG.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Topological_sorting.md
+- Source URL: https://en.wikipedia.org/wiki/Topological_sorting
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] topological-sort-works-disconnected-dags
+Topological sorting works for DAGs with disconnected components.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Topological_sorting.md
+- Source URL: https://en.wikipedia.org/wiki/Topological_sorting
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] kahn-s-data-structure-choice-determines-ordering
+In Kahn's algorithm, using a set, queue, or stack for the zero-indegree collection determines which valid topological ordering is produced but does not affect correctness.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Topological_sorting.md
+- Source URL: https://en.wikipedia.org/wiki/Topological_sorting
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] topological-sort-parallel-nc2
+Topological ordering is in NC2; it can be constructed in O((log n)^2) time with polynomial processors on a PRAM.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Topological_sorting.md
+- Source URL: https://en.wikipedia.org/wiki/Topological_sorting
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] critical-path-method-uses-topological-sort
+The Critical Path Method (CPM/PERT) uses topological sort as the basis for finding critical paths in project scheduling.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Topological_sorting.md
+- Source URL: https://en.wikipedia.org/wiki/Topological_sorting
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] tree-traversal-visits-each-node-exactly-once
+Tree traversal is a form of graph traversal that visits each node in a tree data structure exactly once.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Tree_traversal.md
+- Source URL: https://en.wikipedia.org/wiki/Tree_traversal
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] preorder-topological-parent-before-children
+Pre-order (NLR) traversal produces a topologically sorted sequence in which every parent node appears before its children.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Tree_traversal.md
+- Source URL: https://en.wikipedia.org/wiki/Tree_traversal
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] iterative-preorder-pushes-right-before-left
+Iterative pre-order DFS pushes the right child onto the stack before the left child so that the left child is processed first.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Tree_traversal.md
+- Source URL: https://en.wikipedia.org/wiki/Tree_traversal
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] array-stored-tree-levelorder-is-index-iteration
+For a tree stored in an array, level-order traversal is simply iterating array indices 0 through size-1.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Tree_traversal.md
+- Source URL: https://en.wikipedia.org/wiki/Tree_traversal
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] iterative-deepening-dfs-combines-dfs-space-and-bfs-completeness
+Iterative deepening DFS combines DFS space efficiency with BFS completeness and is relevant for infinite or very large trees.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Tree_traversal.md
+- Source URL: https://en.wikipedia.org/wiki/Tree_traversal
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bfs-fails-infinite-branching-dfs-fails-infinite-depth
+BFS traversal fails on trees with infinite branching, and DFS traversal fails on trees with infinite depth.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Tree_traversal.md
+- Source URL: https://en.wikipedia.org/wiki/Tree_traversal
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] diagonal-traversal-covers-countably-infinite-trees
+Hybrid diagonal traversal methods can traverse any countably infinite tree.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Tree_traversal.md
+- Source URL: https://en.wikipedia.org/wiki/Tree_traversal
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] iterative-postorder-tracks-last-node-visited
+Iterative post-order DFS requires tracking the lastNodeVisited node.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Tree_traversal.md
+- Source URL: https://en.wikipedia.org/wiki/Tree_traversal
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] inorder-next-amortized-o1
+Sequential in-order traversal via inorderNext runs in O(1) amortized time per step, with a full traversal taking 2n-2 steps and worst-case O(h) per step.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Tree_traversal.md
+- Source URL: https://en.wikipedia.org/wiki/Tree_traversal
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] trie-also-called-digital-or-prefix-tree
+A trie is also called a digital tree or prefix tree.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Trie.md
+- Source URL: https://en.wikipedia.org/wiki/Trie
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] trie-node-has-alphabet-size-child-pointers
+Each trie node contains up to |alphabet| child pointers (e.g., 128 for ASCII), most of which are typically null.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Trie.md
+- Source URL: https://en.wikipedia.org/wiki/Trie
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] trie-space-complexity-average-o-n-worst-o-w-n
+Trie space complexity is O(n) on average and O(w·n) in the worst case, where w is alphabet width and n is the number of keys or characters stored.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Trie.md
+- Source URL: https://en.wikipedia.org/wiki/Trie
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] trie-naive-wastes-space-on-sparse-alphabets
+Naive trie implementations waste space on sparse alphabets because each node stores |alphabet| pointers, though tries are space-efficient for large numbers of short strings with common prefixes.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Trie.md
+- Source URL: https://en.wikipedia.org/wiki/Trie
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] trie-alphabet-reduction-trades-depth-for-space
+Alphabet reduction, such as splitting bytes into nibbles, trades 2x traversal depth for 8x space reduction in a trie.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Trie.md
+- Source URL: https://en.wikipedia.org/wiki/Trie
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] trie-bitmap-replaces-pointer-array
+The bitmap technique stores a 256-bit bitmap instead of 256 pointers per trie node to reduce memory.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Trie.md
+- Source URL: https://en.wikipedia.org/wiki/Trie
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] trie-applications-autocomplete-spellcheck-ip-bioinformatics-web-indexing
+Tries are used in autocomplete, spell checking, IP routing for longest prefix match, bioinformatics k-mer indexing in BLAST, and web search engine indexing.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Trie.md
+- Source URL: https://en.wikipedia.org/wiki/Trie
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] trie-left-child-right-sibling-representation
+A left-child right-sibling tree is an alternative trie representation that trades pointer-array space for linked-list traversal cost.
+- Source: /home/forge/workspace/entries/2026/06/19/wiki-Trie.md
+- Source URL: https://en.wikipedia.org/wiki/Trie
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
 
